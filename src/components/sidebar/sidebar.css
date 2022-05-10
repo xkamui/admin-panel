@@ -3,12 +3,14 @@
     top: 50px;
     flex: 1;
     height: calc(100vh - 50px);
-    background: #F5F5F5;
+    background: var(--gui-sid-bgdcol);
 }
 
 .sidebar .sidebarWrapper {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--gui-sid-subcol);
     padding: 20px;
-    color: #999999;
 }
 
 .sidebar .sidebarWrapper .sidebarMenu {
@@ -17,8 +19,8 @@
 
 .sidebar .sidebarWrapper .sidebarMenu .sidebarTitle {
     font-size: 16px;
-    font-weight: bold;
-    color: #CCCCCC;
+    font-weight: 500;
+    color: var(--gui-sid-mnucol);
 }
 
 .sidebar .sidebarWrapper .sidebarMenu .sidebarList {
@@ -36,8 +38,8 @@ padding: 5px;
 
 .sidebar .sidebarWrapper .sidebarMenu .sidebarList .sidebarListItem.active, 
 .sidebar .sidebarWrapper .sidebarMenu .sidebarList .sidebarListItem:hover {
-    color: #FFFFFF;
-    background: #333333;
+    color: var(--gui-sid-ovrcol);
+    background: var(--gui-sid-ovrbgd);
 }
 
 .sidebar .sidebarWrapper .sidebarMenu .sidebarList .sidebarListItem .sidebarIcon {

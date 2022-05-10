@@ -1,0 +1,68 @@
+.widgetLarge {
+    flex: 2;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, .75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, .75);
+    background: var(--base-white);
+}
+
+.widgetLarge .widgetLargeTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetLarge .widgetLargeTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widgetLarge .widgetLargeTable .widgetLargeTh {
+    text-align: left;
+}
+
+.widgetLarge .widgetLargeTable .widgetLargeUser {
+    font-weight: 700;
+    color: #3F4254;
+}
+
+.widgetLarge .widgetLargeTable .widgetLargeDate {
+    font-weight: 500;
+    color: #B5B5C3;
+}
+
+.widgetLarge .widgetLargeTable .widgetLargeAmnt {
+    font-weight: 500;
+    color: #B5B5C3;
+}
+
+.widgetLarge .widgetLargeTable .widgetLargeTr .widgetLargeStts button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #A1A5B7;
+    border: none;
+    border-radius: 10px;
+    padding: calc(0.55rem + 1px) calc(1.25rem + 1px);
+    background: #F5F8FA;
+    cursor: pointer;
+}
+
+.widgetLarge .widgetLargeTable .widgetLargeTr .widgetLargeStts button.widgetLargeButtonApproved {
+    color: var(--btn-app-txtcol);
+    background: var(--btn-app-bgdcol);
+}
+
+.widgetLarge .widgetLargeTable .widgetLargeTr .widgetLargeStts button.widgetLargeButtonDeclined {
+    color: var(--btn-dcl-txtcol);
+    background: var(--btn-dcl-bgdcol);
+}
+
+.widgetLarge .widgetLargeTable .widgetLargeTr .widgetLargeStts button.widgetLargeButtonPending {
+    color: var(--btn-pnd-txtcol);
+    background: var(--btn-pnd-bgdcol);
+}
