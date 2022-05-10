@@ -5,5 +5,5 @@
 
 .page {
     flex: 6;
-    background: lime;
+    padding-top: 10px;
 }
