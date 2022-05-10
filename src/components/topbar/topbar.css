@@ -3,7 +3,7 @@
     top: 0;
     width: 100%;
     height: 50px;
-    background: #ffffff;
+    background: var(--gui-top-bgdcol);
     z-index: 10000;
   }
   
@@ -19,7 +19,7 @@
   .topbar .topbarWrapper .topbarLeft .logo {
     font-size: 32px;
     font-weight: bold;
-    color: #336699;
+    color: var(--gui-top-lgocol);
     cursor: pointer;
   }
   
@@ -31,7 +31,7 @@
   
   .topbar .topbarWrapper .topbarRght .topbarIconsContainer {
     position: relative;
-    color: #999999;
+    color: var(--gui-top-icncol);
     margin-right: 10px;
     cursor: pointer;
   }
@@ -47,9 +47,9 @@
     height: 15px;
     font-size: 12px;
     font-weight: bold;
-    color: #ffffff;
+    color: var(--base-white);
     border-radius: 50%;
-    background: #cc0000;
+    background: var(--gui-top-notifs);
   }
   
   .topbar .topbarWrapper .topbarRght .topbarAvatar img {
