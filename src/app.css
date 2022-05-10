@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tempOthers {
+    flex: 6;
+    background: lime;
+}
