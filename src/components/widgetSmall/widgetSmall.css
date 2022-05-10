@@ -8,67 +8,65 @@
     background: var(--base-white);
 }
 
-
-
 .widgetSmall .widgetSmallTitle {
-font-size: 22px;
-font-weight: 600;
-}
-
-.widgetSmall .widgetSmallList {
-
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .widgetSmall .widgetSmallList .widgetSmallListItem {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
-margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
 }
 
 .widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallUserDatas {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallUserDatas img {
-width: 40px;
-height: 40px;
-border-radius: 50%;
-object-fit: cover;
-margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 0.475rem;
+    object-fit: cover;
+    margin-right: 15px;
 }
 
 .widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallUserDatas figcaption {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallUserDatas figcaption .widgetSmallUsername {
-font-weight: 600;
+    font-weight: 700;
+    color: #3F4254;
 }
 
 .widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallUserDatas figcaption .widgetSmallJobTitle {
-font-weight: 300;
+    font-weight: 500;
+    color: #B5B5C3;
 }
 
 .widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallButton {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-color: #555555;
-border: none;
-border-radius: 10px;
-padding: 7px 10px;
-background: #EEEEF7;
-cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--btn-std-txtcol);
+    border: none;
+    border-radius: 10px;
+    padding: calc(0.55rem + 1px) calc(1.25rem + 1px);
+    background: var(--btn-std-bgdcol);
+    cursor: pointer;
 }
 
-.widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallButton .widgetSmallButtonIcon {
-font-size: 16px !important;
-margin-right: 5px;
+.widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallButton:hover {
+    color: #7E8299;
+    background: #EFF2F5;
 }

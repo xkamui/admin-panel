@@ -18,10 +18,7 @@ export default function WidgetSmall() {
               <span className="widgetSmallJobTitle">Super Admin</span>
             </figcaption>
           </figure>
-          <button className="widgetSmallButton">
-            <VisibilityIcon className="widgetSmallButtonIcon" />
-            Display
-          </button>
+          <button className="widgetSmallButton">Details</button>
         </li>
         <li className="widgetSmallListItem">
           <figure className="widgetSmallUserDatas">
@@ -35,10 +32,7 @@ export default function WidgetSmall() {
               <span className="widgetSmallJobTitle">Commercial raté</span>
             </figcaption>
           </figure>
-          <button className="widgetSmallButton">
-            <VisibilityIcon className="widgetSmallButtonIcon" />
-            Display
-          </button>
+          <button className="widgetSmallButton">Details</button>
         </li>
         <li className="widgetSmallListItem">
           <figure className="widgetSmallUserDatas">
@@ -52,10 +46,7 @@ export default function WidgetSmall() {
               <span className="widgetSmallJobTitle">Campeur au grand cœur</span>
             </figcaption>
           </figure>
-          <button className="widgetSmallButton">
-            <VisibilityIcon className="widgetSmallButtonIcon" />
-            Display
-          </button>
+          <button className="widgetSmallButton">Details</button>
         </li>
         <li className="widgetSmallListItem">
           <figure className="widgetSmallUserDatas">
@@ -69,10 +60,7 @@ export default function WidgetSmall() {
               <span className="widgetSmallJobTitle">Développeur ?</span>
             </figcaption>
           </figure>
-          <button className="widgetSmallButton">
-            <VisibilityIcon className="widgetSmallButtonIcon" />
-            Display
-          </button>
+          <button className="widgetSmallButton">Details</button>
         </li>
         <li className="widgetSmallListItem">
           <figure className="widgetSmallUserDatas">
@@ -86,10 +74,7 @@ export default function WidgetSmall() {
               <span className="widgetSmallJobTitle">Dragueur</span>
             </figcaption>
           </figure>
-          <button className="widgetSmallButton">
-            <VisibilityIcon className="widgetSmallButtonIcon" />
-            Display
-          </button>
+          <button className="widgetSmallButton">Details</button>
         </li>
       </ul>
     </div>

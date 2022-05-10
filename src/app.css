@@ -30,7 +30,18 @@ input, button, textarea, select { font: inherit; }
     --gui-sid-ovrbgd: rgba(245,248,250,.8);
 
     /* MAIN PAGES COLORS */
-    --gui-pag-bgdcol: #eff2f5;
+    --gui-pag-bgdcol: #EFF2F5;
+
+    /* BUTTON COLORS */
+    --btn-std-txtcol: #A1A5B7;
+    --btn-std-bgdcol: #F5F8FA;
+    --btn-app-txtcol: #50CD89;
+    --btn-app-bgdcol: #E8FFF3;
+    --btn-dcl-txtcol: #F1416C;
+    --btn-dcl-bgdcol: #FFF5F8;
+    --btn-pnd-txtcol: #00A3FF;
+    --btn-pnd-bgdcol: #F1FAFF;
+
 
     --base-white: #FFFFFF;
     --base-lightgray: #F5F5F5;
