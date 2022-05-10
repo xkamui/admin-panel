@@ -1,10 +1,18 @@
-import FeaturedInfos from '../../components/featuredInfos/FeaturedInfos'
-import './home.css'
+import Chart from "../../components/chart/Chart";
+import FeaturedInfos from "../../components/featuredInfos/FeaturedInfos";
+import { userData } from "../../dummyDatas";
+import "./home.css";
 
 export default function Home() {
   return (
     <div className="page homepage">
-        <FeaturedInfos />
+      <FeaturedInfos />
+      <Chart
+        data={userData}
+        title="User Analytics"
+        dataKey="Active User"
+        grid
+      />
     </div>
-  )
+  );
 }
