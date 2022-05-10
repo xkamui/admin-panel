@@ -1,0 +1,74 @@
+.widgetSmall {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, .75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, .75);
+    background: var(--base-white);
+}
+
+
+
+.widgetSmall .widgetSmallTitle {
+font-size: 22px;
+font-weight: 600;
+}
+
+.widgetSmall .widgetSmallList {
+
+}
+
+.widgetSmall .widgetSmallList .widgetSmallListItem {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin: 20px 0;
+}
+
+.widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallUserDatas {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallUserDatas img {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: cover;
+margin-right: 15px;
+}
+
+.widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallUserDatas figcaption {
+display: flex;
+flex-direction: column;
+}
+
+.widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallUserDatas figcaption .widgetSmallUsername {
+font-weight: 600;
+}
+
+.widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallUserDatas figcaption .widgetSmallJobTitle {
+font-weight: 300;
+}
+
+.widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallButton {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: #555555;
+border: none;
+border-radius: 10px;
+padding: 7px 10px;
+background: #EEEEF7;
+cursor: pointer;
+}
+
+.widgetSmall .widgetSmallList .widgetSmallListItem .widgetSmallButton .widgetSmallButtonIcon {
+font-size: 16px !important;
+margin-right: 5px;
+}
