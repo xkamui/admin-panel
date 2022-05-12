@@ -1,0 +1,44 @@
+.userList .userListTable {
+    width: 100%;
+    background: var(--base-white);
+}
+
+.userList .userListTable .userListAvatarName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userList .userListTable .userListAvatarName img {
+    width: 40px;
+    height: 40px;
+    border-radius: 0.475rem;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.userList .userListTable .userListActions {
+    display: flex;
+}
+
+.userList .userListTable .userListActions button {
+    font-size: 12px !important;
+    font-weight: 700;
+    color: var(--btn-std-txtcol);
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background: var(--btn-std-bgdcol);
+    cursor: pointer;
+}
+
+.userList .userListTable .userListActions .userListEdt:hover {
+    color: var(--btn-edt-txtcol);
+    background: var(--btn-edt-bgdcol);
+}
+
+.userList .userListTable .userListActions .userListDel:hover {
+    color: var(--btn-del-txtcol);
+    background: var(--btn-del-bgdcol);
+}

@@ -41,6 +41,10 @@ input, button, textarea, select { font: inherit; }
     --btn-dcl-bgdcol: #FFF5F8;
     --btn-pnd-txtcol: #00A3FF;
     --btn-pnd-bgdcol: #F1FAFF;
+    --btn-del-txtcol: #F1416C;
+    --btn-del-bgdcol: #FFF5F8;
+    --btn-edt-txtcol: #00A3FF;
+    --btn-edt-bgdcol: #F1FAFF;
 
 
     --base-white: #FFFFFF;

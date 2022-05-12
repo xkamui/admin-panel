@@ -1,4 +1,3 @@
-import VisibilityIcon from "@mui/icons-material/Visibility";
 import "./widgetSmall.css";
 
 export default function WidgetSmall() {
